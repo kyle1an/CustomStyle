@@ -1,0 +1,475 @@
+/* ==UserStyle==
+@name			v2ex
+@author			Cascadea User
+@version		1.0
+@namespace		cascadea41492846
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("v2ex.com")
+{
+	.votes,
+	.topic_info [href^="/member"],
+	.item td[width="48"]:nth-of-type(1),
+	.item td[width="10"]:nth-of-type(2),
+	.fr [src="/static/img/reply_neue.png"],
+	#Main .sep20:nth-of-type(3),
+	#Main .cell .sep5,
+	#Main [id^="r_"] td:nth-of-type(1),
+	#Main [id^="r_"] td:nth-of-type(2),
+	[alt="❤️"],
+	#Main .box .sep3,
+	#reply-box,
+	.sidebar_units,
+	#Rightbar [href*="/link/v2ex"],
+	#Rightbar [href*="=v2ex"],
+	#TopicsHot .cell td:nth-of-type(1),
+	#TopicsHot .cell td:nth-of-type(2) {
+		display: none !important;
+	}
+	
+	#Rightbar .sep20:not(#Rightbar .sep20:nth-of-type(1)) {
+		display: none;
+	}
+	
+	#Logo {
+		opacity: 0;
+	}
+	
+	/* Wrapper */
+	
+	#Wrapper {
+		/*background-color: rgba(0, 0, 0, 0) !important;*/
+	}
+	
+	@media screen {
+		#Wrapper {
+			text-align: center;
+			/*background-color: #e2e2e2;*/
+			/* background-image: url(/static/img/shadow_light.png); */
+			/*background-repeat: repeat-x;*/
+		}
+	}
+	
+	#Main {
+		margin-left: 32px;
+	}
+	
+	.page_input,
+	[href^="/member"],
+	.ago {
+		font-family: "SF Compact Text";
+	}
+	
+	.item td:nth-of-type(4),
+	.count_livid,
+	.box .fr {
+		font-variant-numeric: tabular-nums;
+	}
+	
+	strong [href^="/member"] {
+		position: relative;
+		top: -0.7px !important;
+		padding-right: 4px;
+		font-weight: 400;
+	}
+	
+	.avatar {
+		border-radius: 0 !important;
+		max-height: 20px;
+		float: top;
+		top: -10px;
+	}
+	
+	.topic_buttons {
+		background-image: none;
+	}
+	
+	.box {
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	/* #Main item */
+	
+	#SecondaryTabs {
+		background-image: linear-gradient(to right,
+				#fff 0%,
+				#f9f9f9 10%,
+				#f9f9f9 30%,
+				#fff 100%);
+		border-bottom: 0;
+	}
+	
+	.item_title * {
+		color: #0077cc !important;
+	}
+	
+	
+	[class^="cell from_"] {
+		padding: 10px 10px 7px 10px;
+	}
+	
+	#Main .box .fr {
+		min-width: 136.5px !important;
+	}
+	
+	.count_livid {
+		color: orange !important;
+		background: rgba(0, 0, 0, 0) !important;
+		font-family: SF C0mpact Text, SF Compact Text;
+		font-size: 14px;
+		letter-spacing: .2em;
+		float: left;
+		text-align: left !important;
+	}
+	
+	.node {
+		font-size: smaller !important;
+		font-weight: 500;
+	}
+	
+	#Main .box .item {
+		padding-bottom: 7px;
+	}
+	
+	/* #Main cell */
+	
+	#Main [style="border-bottom: 0px;"] {
+		border-radius: 3px 3px 0 0;
+	}
+	
+	:root {
+		--pd_r: 22px;
+		--mg_l: 25px;
+		--r_mg_r: 10px;
+	}
+	
+	.box [id^="r_"] {
+		padding: 0 0 0 var(--pd_r);
+		margin-left: 0;
+	}
+	
+	#Main .box>[id^="r_"] {
+		margin-left: var(--mg_l);
+		padding-left: 40px;
+		margin-right: var(--r_mg_r);
+	}
+	
+	.box [id^="r_"] [id^="r_"] {
+		border: solid rgb(237, 239, 241);
+		border-width: 0 0 0 1.5px;
+	}
+	
+	.box [id^="r_"], .cell {
+		border-top: solid rgb(239, 240, 241) !important;
+		border-top-width: 1px !important;
+		border-bottom-width: 0;
+	}
+	
+	#Main .small.fade {
+		color: rgb(244, 128, 36);
+		position: relative;
+		float: left;
+		left: calc(756px - var(--mg_l) - var(--r_mg_r));
+		top: 10.4px;
+		font-weight: 500;
+		font-size: 14px;
+		-webkit-transform: rotate(180deg);
+	}
+	
+	[id^="r_"] td {
+		-moz-transform: rotate(180deg) !important;
+		-webkit-transform: rotate(180deg);
+		-o-transform: rotate(180deg) !important;
+		-ms-transform: rotate(180deg) !important;
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	}
+	
+	.no,
+	.box [id^="r_"] strong,
+	.box .ago,
+	.thank_area {
+		top: -4px;
+	}
+	
+	.no,
+	.box [id^="r_"] strong,
+	.box .ago {
+		font-size: 9px !important;
+		float: left;
+	}
+	
+	.box [id^="r_"] strong,
+	[title="V2EX Moderator"],
+	.box .ago {
+		position: relative;
+		float: right;
+		left: 134px;
+	}
+	
+	.no,
+	.box [id^="r_"] strong,
+	.box .ago,
+	[title="V2EX Moderator"],
+	[id^="r_"] .reply_content,
+	.thank_area {
+		-webkit-transform: rotate(180deg);
+	}
+	
+	.no {
+		position: absolute;
+		left: 0;
+		font-size: 10px;
+		padding-left: 1px;
+		margin-top: 4px;
+		background: rgba(0, 0, 0, 0);
+	}
+	
+	.thank_area {
+		position: absolute;
+		/*left: 100px !important;*/
+		left: 25px !important;
+		top: 0;
+		font-size: 9px;
+		width: 100px;
+		vertical-align: middle;
+	}
+	
+	.thank_area a:nth-of-type(1) {
+		display: none !important;
+	}
+	
+	.no:before {
+		content: "#";
+	}
+	
+	[id^="r_"] .reply_content {
+		position: relative;
+		top: -10.4px !important;
+	}
+	
+	[id^="r_"] a.dark {
+		color: #0077cc;
+	}
+	
+	.reply_content [href^="/member"] {
+		color: black;
+	}
+	
+	/* #Rightbar */
+	
+	#Rightbar * {
+		border-radius: 0;
+	}
+	
+	#Rightbar .box {
+		border-bottom: 0;
+	}
+	
+	#TopicsHot .cell {
+		padding-top: 4px;
+		padding-bottom: 3px;
+	}
+	
+	/**/
+	
+	body {
+		font-family: SF Pro Text, -apple-system !important;
+	}
+	
+	code,
+	[class~="code"],
+	pre {
+		font-family: SF Mono, Monospace !important;
+	}
+	
+	@font-face {
+		font-family: "SF Compact Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/C0mpact/SF-Compact-Text-Light.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 300;
+	}
+	
+	@font-face {
+		font-family: "SF Compact Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/C0mpact/SF-Compact-Text-LightItalic.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 300;
+		font-style: italic;
+	}
+	
+	@font-face {
+		font-family: "SF Compact Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/C0mpact/SF-Compact-Text-Regular.otf");
+		unicode-range: U+0-01FF;
+	}
+	
+	@font-face {
+		font-family: "SF Compact Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/C0mpact/SF-Compact-Text-RegularItalic.otf");
+		unicode-range: U+0-01FF;
+		font-style: italic;
+	}
+	
+	@font-face {
+		font-family: "SF Compact Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/C0mpact/SF-Compact-Text-Medium.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 500;
+	}
+	
+	@font-face {
+		font-family: "SF Compact Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/C0mpact/SF-Compact-Text-MediumItalic.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 500;
+		font-style: italic;
+	}
+	
+	@font-face {
+		font-family: "SF Pro Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Pr0/SF-Pro-Text-Light.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 300;
+	}
+	
+	@font-face {
+		font-family: "SF Pro Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Pr0/SF-Pro-Text-LightItalic.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 300;
+		font-style: italic;
+	}
+	
+	@font-face {
+		font-family: "SF Pro Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Pr0/SF-Pro-Text-Regular.otf");
+		unicode-range: U+0-01FF;
+	}
+	
+	@font-face {
+		font-family: "SF Pro Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Pr0/SF-Pro-Text-RegularItalic.otf");
+		unicode-range: U+0-01FF;
+		font-style: italic;
+	}
+	
+	@font-face {
+		font-family: "SF Pro Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Pr0/SF-Pro-Text-Medium.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 500;
+	}
+	
+	@font-face {
+		font-family: "SF Pro Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Pr0/SF-Pro-Text-MediumItalic.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 500;
+		font-style: italic;
+	}
+	
+	@font-face {
+		font-family: "SF Pro Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Pr0/SF-Pro-Text-Bold.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 700;
+	}
+	
+	@font-face {
+		font-family: "SF Pro Text";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Pr0/SF-Pro-Text-BoldItalic.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 700;
+		font-style: italic;
+	}
+	
+	@font-face {
+		font-family: "SF Mono";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-Regular.otf");
+		unicode-range: U+0-01FF;
+	}
+	
+	@font-face {
+		font-family: "SF Mono";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-RegularItalic.otf");
+		unicode-range: U+0-01FF;
+		font-style: italic;
+	}
+	
+	@font-face {
+		font-family: "SF Mono";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-Bold.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 700;
+	}
+	
+	@font-face {
+		font-family: "SF Mono";
+		src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-BoldItalic.otf");
+		unicode-range: U+0-01FF;
+		font-weight: 700;
+		font-style: italic;
+	}
+}
+@font-face {
+	font-family: "redesignFont";
+	src: url(https://www.redditstatic.com/desktop2x/fonts/redesignIcon/redesignFont.6bfa5b5fa34442b19aba52779fdd5e7a.eot),
+		url(https://www.redditstatic.com/desktop2x/fonts/redesignIcon/redesignFont.6bfa5b5fa34442b19aba52779fdd5e7a.woff),
+		url(https://www.redditstatic.com/desktop2x/fonts/redesignIcon/redesignFont.6bfa5b5fa34442b19aba52779fdd5e7a.ttf),
+		url(https://www.redditstatic.com/desktop2x/fonts/redesignIcon/redesignFont.6bfa5b5fa34442b19aba52779fdd5e7a.svg);
+}
+
+.dark [color="green"]:before {
+	content: "\f12b";
+	font-family: "redesignFont";
+	font-size: 10px;
+	color: #24a0ed !important;
+	position: relative !important;
+	top: 1.5px !important;
+}
+
+/*hover*/
+.box [id^="r_"] [id^="r_"]:hover {
+	border: solid #fb945d;
+	border-width: 0 0 0 1.5px;
+}
+
+.box [id^="r_"] [id^="r_"] [id^="r_"]:hover {
+	border: solid #fbecd5;
+	border-width: 0 0 0 1.5px;
+}
+
+.box [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"]:hover {
+	border: solid #506488;
+	border-width: 0 0 0 1.5px;
+}
+
+
+.box [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"]:hover {
+	border: solid #A70F23;
+	border-width: 0 0 0 1.5px;
+}
+
+
+.box [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"]:hover {
+	border: solid #FFFED1;
+	border-width: 0 0 0 1.5px;
+}
+
+.box [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"]:hover {
+	border: solid #FFF2A5;
+	border-width: 0 0 0 1.5px;
+}
+
+.box [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"]:hover {
+	border: solid #393391;
+	border-width: 0 0 0 1.5px;
+}
+
+.box [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"] [id^="r_"]:hover {
+	border: solid #beedc7;
+	border-width: 0 0 0 1.5px;
+}

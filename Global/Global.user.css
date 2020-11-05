@@ -1,0 +1,72 @@
+/* ==UserStyle==
+@name			Global
+@author			Cascadea User
+@version		1.0
+@namespace		cascadea41492846
+@preprocessor	default
+==/UserStyle== */
+
+/*table,*/
+/*td*/
+[class^="time"],
+[class$="time"] {
+	font-variant-numeric: tabular-nums !important;
+}
+
+/*[class^='advertisement'],*/
+[src="./files/images/listicon.gif"],
+
+#ad,
+.ad,
+[id^='ad-'],
+[id$="Ad"],
+[id*='-ad-'],
+[id*='AdBillboard'],
+[data-before-content*="advertisement"],
+[class*="advertisement-"],
+[id*='advertisement'],
+
+[id*='cookie'],
+/*[class*='cookie'],*/
+[class*='cookie-disclaimer'],
+[id*='cookieWrapper'],
+#onetrust-consent-sdk *,
+
+/*[id$='-alert'],*/
+/*[class$='-alert'],*/
+/*eu-cookie*/
+/*[class^='gdpr-cookie'],*/
+/*[id^='gdpr-cookie'],*/
+.ad-image,
+.ads-active,
+.adsbygoogle,
+.advertisement-box,
+.banner-fixed-bottom.cms-html-edit,
+.bottomlink,
+.cc_banner-wrapper,
+.cc-bottom,
+/*[id^='nxs-ccpa'],*/
+/*#nxs-ccpa-banner,*/
+#ccpa-banner,
+[aria-label="cookieconsent"],
+[data-testid="cookie-notice"],
+/*#CybotCookiebotDialog,*/
+[data-banner="cookies"],
+#_evidon_banner,
+.expandable-growler-wrapper,
+[data-token*="gdpr_cookie"],
+#js-gdpr-consent-banner,
+.oaDryNmq,
+#onetrust-banner-sdk,
+.paywall-container-component,
+#Paywall.Paywall,
+.privacyPolicyPopup,
+.paywall-popup,
+[data-ut="search-signup-prompt"],
+#truste-consent-track,
+/*
+facebook
+*/
+#u_0_d {
+	display: none !important;
+}

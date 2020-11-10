@@ -1,0 +1,489 @@
+/* ==UserStyle==
+@name			cnWeb
+@author			.titlecentermedium
+@version		1.0
+@namespace		cascadea3859299101
+==/UserStyle== */
+
+@-moz-document domain("csdn.net")
+{
+	.blog-content-box * {
+		font-family: SF Pro Text;
+	}
+	
+	pre *,
+	code *,
+	.dp-highlighter *,
+	.prettyprint,
+	[name="code"] * {
+		font-family: SF Mono, Monospace !important;
+	}
+	
+	.csdn-logo {
+		opacity: 0;
+	}
+	
+	.csdn-toolbar,
+	.vip-caise,
+	.csdn-tracking-statistics mb8 box-shadow,
+	#asideFooter,
+	.bdsharebuttonbox,
+	.reward-user-box,
+	.t0,
+	.comment-edit-box,
+	.blog-expert-recommend-box,
+	a[data-type="app"],
+	a[data-type="cs"],
+	a[data-type="report"],
+	.recommend-recommend-box,
+	.csdn-tracking-statistics.mb8.box-shadow,
+	aside,
+	.tool-box.vertical,
+	.csdn-side-toolbar,
+	.recommend-right,
+	.leftPop,
+	/*main .recommend-box,*/
+	.template-box {
+		display: none !important;
+	}
+	
+	.blog-content-box {
+		padding-bottom: 100px !important;
+	}
+	
+	div {
+		box-shadow: none !important;
+	}
+	
+	.nodata, .container.clearfix {
+		background-image: none !important;
+		background-color: white !important;
+	}
+	
+	main, #mainBox.container.clearfix, .blog-content-box {
+		width: 760px !important;
+	}
+	
+	#csdn-toolbar {
+		opacity: 0.03;
+	}
+}
+
+@-moz-document domain("douban.com")
+{
+	/*谁在看这部电影*/
+	.top-nav-doubanapp, #subject-others-interests ul, #landing-bar, .ul_subject_menu.bicelink.color_gray.pt6.clearfix, [href="https://movie.douban.com/help/movie#t0-qs"] {
+		display: none !important;
+	}
+	
+	.rec, #interest_sect_level.clearfix {
+		visibility: hidden;
+	}
+	
+	.indent.clearfix, .episode_list {
+		margin-bottom: 0;
+	}
+	
+	.review-content.clearfix {
+		font-size: 16px;
+	}
+	
+	.comment-content {
+		font-size: 15px;
+	}
+}
+
+@-moz-document domain("weibo.com")
+{
+	.UG_left_nav, .UG_box_l, #pl_unlogin_home_feed, .footer_link.clearfix, .webim_fold.webim_fold_v2.clearfix, .PCD_mplayer.clearfix, [suda-uatrack="key=topnav_tab&value=video"], [suda-uatrack="key=topnav_tab&value=discover"], [suda-uatrack="key=topnav_tab&value=game"], .W_tips.tips_warn.clearfix, .WB_feed_publish.clearfix, .W_new_count, div.WB_starcover * {
+		display: none !important;
+	}
+	
+	.tab_feed_a.clearfix.S_line1 {
+		margin-top: 0;
+		border-top: 0;
+		padding-top: 0;
+	}
+	
+	.WB_repeat.S_line1 {
+		padding-top: 9px !important;
+	}
+	
+	.gn_logo {
+		opacity: 0 !important;
+	}
+	
+	.WB_global_nav.WB_global_nav_v2 {
+		position: absolute !important;
+		border-top: 0;
+	}
+	
+	.WB_frame, plc_main, body {
+		background: rgba(255, 255, 255, 0)
+	}
+	
+	.WB_global_nav .ficon_send {
+		background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+	}
+	
+	.WB_cardwrap.WB_feed_type.S_bg2.WB_feed_vipcover.WB_feed_like {
+		border: 0 !important;
+		margin: 0 !important;
+	}
+}
+
+@-moz-document domain("juejin.im")
+{
+	.index-book-collect,
+	.recommend-box,
+	.nav-item.link-item.book,
+	.nav-item.add {
+		display: none;
+	}
+	
+	.main-header[data-v-20709686] {
+		background: none;
+		border-bottom: 0px solid #f1f1f1;
+	}
+}
+
+@-moz-document domain("jianshu.com")
+{
+	._1AawTM._1OhGeD {
+		opacity: 0;
+	}
+	
+	._3JYrtj, ._2MpoKb._1OyPqC._3Mi9q9._2WY0RL, ._1OyPqC._3Mi9q9._2WY0RL._1YbC5u, [aria-label="赞赏作者"], [aria-label="查看赞赏列表"], ._13lIbp, ._26JdYM {
+		display: none;
+	}
+	
+	._1CSgtu, .ant-affix {
+		position: absolute !important;
+	}
+	
+	._1CSgtu {
+		/*background-color: #f9f9f9;*/
+		background-color: rgba(249, 249, 249, 1);
+		box-shadow: none;
+	}
+	._3VRLsv{
+		padding-top: 0;
+	}
+	/*div._2xr8G8 {*/
+	/*	-webkit-backdrop-filter: saturate(180%) blur(20px) !important;*/
+	/*	backdrop-filter: saturate(180%) blur(20px) !important;*/
+	/*	background-color: rgba(255, 255, 255, 0.38) !important;*/
+	/*}*/
+}
+
+@-moz-document domain("y.qq.com")
+{
+	.popup_guide {
+		display: none;
+	}
+}
+
+@-moz-document domain("smzdm.com")
+{
+	#global-search.mini-bar {
+		position: absolute;
+	}
+	
+	.author-right.J_side_scroll_fixed.J_side_fixed_copy.J_side_fixed_animation {
+		position: absolute !important;
+	}
+	
+	.comment_list, .comment_blockquote {
+		padding-bottom: 0 !important;
+	}
+	
+	.comment_blockquote {
+		padding-top: 0 !important;
+	}
+	
+	.comment_list {
+		margin-bottom: 0 !important;
+	}
+	
+	.blockquote_wrap {
+		padding-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	
+	.comment_avatar_time {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	
+	.comment_action {
+		height: 18px !important;
+	}
+	
+	.jubao, .dingNum, .caiNum, .atta, .reply {
+		vertical-align: 18px !important;
+	}
+	
+	.comment_avatar_time {
+		height: 27px;
+	}
+	
+	.comment_avatar_time, .icon-medal {
+		opacity: 0.38 !important;
+	}
+	
+	.comment_con {
+		color: black;
+	}
+}
+
+@-moz-document domain("https://sspai.com/post")
+{
+	/*取消浮动顶部导航栏*/
+	#app-head {
+		position: absolute;
+	}
+	
+	.recommend-card, #app-footer, .icon_box, .link_box, .ssp_text {
+		display: none !important;
+	}
+	
+	#app {
+		padding-bottom: 0 !important;
+	}
+	
+	.advertisementCardBox.adOrigin .corner {
+		display: none !important;
+	}
+}
+
+@-moz-document domain("manmanbuy.com")
+{
+	div.footer-wrap {
+		display: none;
+	}
+}
+
+@-moz-document domain("kaoyan.eol.cn")
+{
+	.top-pic, .newslist.container, .newstj, .gongju, .sharebox, .newstj3, .peixun, .mzsm, .footer, .pic3 {
+		display: none;
+	}
+	
+	.list {
+		padding: 4px !important;
+	}
+	
+	.sline, .tline.clearfix {
+		margin: 0 !important;
+	}
+	
+	.sline {
+		font-size: 12px !important;
+	}
+	
+	.main.container {
+		padding-bottom: 0 !important;
+	}
+	
+	.perpage {
+		padding: 0 !important;
+	}
+	
+	.perpage {
+		border: 0;
+	}
+}
+
+@-moz-document domain("bilibili.com")
+{
+	.bilibili-player-video-time-now {
+		font-family: SF Pro Text, -apple-system !important;
+		font-variant-numeric: tabular-nums;
+	}
+	
+	/*去分类区块*/
+	.num,
+	.hinter.p-absolute.a-splashing,
+	.appeal-text, .comment-send,
+	#live_recommand_report,
+	#link-footer-vm,
+	.live-haruna-ctnr.z-live-haruna.floating.ts-dot-4,
+	.side-bar-cntr,
+	.announcement-wrapper.clearfix.no-select,
+	.bilibili-live-player-video-controller-btn-item.bilibili-live-player-video-controller-feedback-btn,
+	#gift-control-vm,
+	.chat-item.system-msg.border-box,
+	.draft-holder-block,
+	.extension,
+	[report-id="charge"],
+	#slide_ad,
+	#bannerAd {
+		display: none !important;
+	}
+	
+	.nav-link-ul.mini,
+	.mini-vip.van-popover__reference,
+	.mini-upload.van-popover__reference,
+	[href="https://member.bilibili.com/v2#/home"] {
+		visibility: hidden !important;
+	}
+	
+	.bilifont.bili-Navbar_logo,
+	.header-icon-Navbar_logo,
+	[report-id="playpage_contribution"],
+	.feedback-btn,
+	::placeholder {
+		opacity: 0;
+	}
+	
+	#reco_list {
+		opacity: 0.62 !important;
+	}
+	
+	#link-navbar-vm,
+	.fixed-box {
+		position: absolute !important;
+	}
+	
+	.player * {
+		box-shadow: none !important;
+	}
+	
+	.up-info .u-info .name .username.is-vip:hover {
+		color: #000000 !important;
+	}
+	
+	.default-btn.charge-btn.following-charge-btn {
+		background-color: rgb(231, 231, 231);
+		border-color: rgb(231, 231, 231);
+		color: rgb(153, 153, 153);
+	}
+	
+	.bilibili-player-video-btn-send.bui.bui-button.bui-button-blue,
+	.default-btn.follow-btn.b-gz.not-follow {
+		background-color: rgb(231, 231, 231) !important;
+		color: rgb(153, 153, 153);
+	}
+	
+	.comment-header.clearfix {
+		margin-bottom: 0 !important;
+	}
+	
+	.comment-list {
+		padding-top: 0 !important;
+	}
+	
+	.con {
+		border: 0 !important;
+	}
+	
+	[report-id="abstract_spread"],
+	[report-id="abstract_unspread"] {
+		margin-top: 0 !important;
+	}
+}
+
+@-moz-document domain("bilibili.com"), domain("ithome.com"), domain("sspai.com")
+{
+	/*.bilibili-player-video-wrap *,*/
+	/*.bilibili-player-video-danmaku *,*/
+	/*.bilibili-player * {*/
+	/*	font-size: ;*/
+	/*}*/
+	
+	.b-danmaku {
+		font-family: SF Compact Text, -apple-system !important;
+		font-size: 21px !important;
+	}
+	
+	.bilibili-player-video-time-wrap {
+		font-family: SF Pro Text, -apple-system !important;
+	}
+}
+
+@-moz-document domain("nowcoder.com")
+{
+	.nowcoder-header.js-nowcoder-header {
+		position: absolute !important;
+	}
+	
+	.nowcoder-logo {
+		opacity: 0;
+	}
+	
+	.collect-fixed-foot.js-fixed-favorite.nc-req-auth,
+	.discuss-title.js-fixed-title.fixed-title,
+	.ncnav.flex-row.bg-white.plr-1.vux-1px-b,
+	.ft-wrap.js-nowcoder-footer,
+	.gotop.js-nav-go-top,
+	.fixed-wb,
+	.qq,
+	.wx,
+	.feedback,
+	.qrcode,
+	.module-box.side-topic-box,
+	#jsEditorModuleBody.module-body,
+	.main-nav,
+	.cpn-tag-link.radius.m-1.fs-s {
+		display: none !important;
+	}
+	
+	.ncmain.appwithsplit {
+		padding-top: 0;
+	}
+	
+	.final-main.clearfix,
+	.nk-main.clearfix {
+		padding-bottom: 15px;
+	}
+}
+
+@-moz-document domain("mcar.co")
+{
+	.WB_widgets.WB_FB_show {
+		display: none;
+	}
+	
+	[src="http://mcar.fun/ad/rrtvad960x90.jpg"], [style="background-color:#FC0;margin-top:1px; width:500px; height:90px;"], [style="background-color:#FF0;background-float:right;margin-top:-371px;margin-left:500px; width:234px; height:375px;"] {
+		display: none;
+	}
+	
+	/*.showhide {
+		width: 757px !important;
+		height: 425px !important;
+	}*/
+	
+	video {
+		width: 735px !important;
+		height: 403px !important;
+	}
+}
+
+@-moz-document domain("ithome.com")
+{
+	/*div#top.su {*/
+	/*	position: absolute;*/
+	/*}*/
+	
+	#logo {
+		opacity: 0 !important;
+	}
+	
+	.rewarduserlist a[target="_blank"], div.shareto, div#postcomment3, div.related_post {
+		display: none;
+	}
+}
+
+@-moz-document domain("m.ithome")
+{
+	.open-app-banner,
+	.open-app,
+	.down-app-box,
+	#bd-share-box,
+	[data-tag="specialm"],
+	[data-tag="5gm"],
+	[data-tag="votenews"],
+	[data-tag="phonem"] {
+		display: none !important;
+	}
+}

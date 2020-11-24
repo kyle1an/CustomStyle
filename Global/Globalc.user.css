@@ -1,0 +1,2426 @@
+/* ==UserStyle==
+@name			Globalc
+@author			Cascadea User
+@version		1.0.0
+@namespace		cascadea41492846
+@preprocessor	stylus
+==/UserStyle== */
+
+code,
+code *,
+[class~="code"],
+[style*="Monospace"],
+.monospaced,
+pre,
+tt {
+	font-family: SF Mono, Monospace !important;
+}
+
+[style*="sans-serif"] {
+	font-family: SF Compact Text;
+}
+
+/*table,*/
+/*td*/
+.grid-date,
+[class^="time"],
+[class$="time"],
+[id^="timer"] {
+	font-variant-numeric: tabular-nums !important;
+}
+
+/*[class^='advertisement'],*/
+[src="./files/images/listicon.gif"],
+
+#ad,
+/*.ad,*/
+[id^='ad-'],
+[id$="Ad"],
+[id*='-ad-'],
+[id*='AdBillboard'],
+[data-before-content*="advertisement"],
+[class*="advertisement-"],
+[id*='advertisement'],
+
+[id*='cookie'],
+/*[class*='cookie'],*/
+[class*='cookie-disclaimer'],
+.cookieinfo,
+[id*='cookieWrapper'],
+#onetrust-consent-sdk *,
+
+/*[id$='-alert'],*/
+/*[class$='-alert'],*/
+/*eu-cookie*/
+/*[class^='gdpr-cookie'],*/
+/*[id^='gdpr-cookie'],*/
+.ad-image,
+.ads-active,
+.adsbygoogle,
+.advertisement-box,
+.banner-fixed-bottom.cms-html-edit,
+.bottomlink,
+.cc_banner-wrapper,
+.cc-bottom,
+/*[id^='nxs-ccpa'],*/
+/*#nxs-ccpa-banner,*/
+#ccpa-banner,
+[aria-label="cookieconsent"],
+[data-testid="cookie-notice"],
+/*#CybotCookiebotDialog,*/
+[data-banner="cookies"],
+#_evidon_banner,
+.expandable-growler-wrapper,
+[data-token*="gdpr_cookie"],
+#js-gdpr-consent-banner,
+.oaDryNmq,
+#onetrust-banner-sdk,
+.paywall-container-component,
+#Paywall.Paywall,
+.privacyPolicyPopup,
+.paywall-popup,
+[data-ut="search-signup-prompt"],
+#truste-consent-track,
+/*
+facebook
+*/
+#u_0_d {
+	display: none !important;
+}
+
+.adguard-assistant-button-main-logo {
+	background-image: none !important;
+}
+
+.adguard-alert {
+	/*cursor: pointer;*/
+	/*left: 0;*/
+	/*top: 0;*/
+	/*position: fixed !important;*/
+	/*z-index: 2147483647 !important;*/
+	/*width: 40px !important;*/
+	width: 30px !important;
+	/*height: 40px !important;*/
+	height: 30px !important;
+	zoom: 1 !important;
+	/*display: inline-block !important;*/
+	margin: 0 !important;
+	/*border: 0 !important;*/
+	padding: 0 !important;
+	/*will-change: transform;*/
+	/*opacity: 1;*/
+	opacity: 0.2;
+	/*touch-action: none;*/
+	/*-ms-touch-action: none;*/
+	/*visibility: visible !important;*/
+	/*min-height: auto !important;*/
+	/*max-height: auto !important;*/
+	/*min-width: auto !important;*/
+	/*max-width: auto !important;*/
+	/*background-size: 21px !important;*/
+	/*background-position: center center !important;*/
+	/*background-repeat: no-repeat !important;*/
+	/*background-color: #fff !important;*/
+	/*border: none !important;*/
+	/*box-shadow: 0 0 10px 3px rgba(162, 161, 161, 0.3) !important;*/
+	/*border-radius: 100% !important;*/
+	/*transition: background-color 0.3s ease;*/
+}
+$P-Thin="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-Thin.otf";
+$P-ThinItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-ThinItalic.otf";
+$P-Light="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-Light.otf";
+$P-LightItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-LightItalic.otf";
+$P-Regular="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-Regular.otf";
+$P-RegularItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-RegularItalic.otf";
+$P-Medium="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-Medium.otf";
+$P-MediumItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-MediumItalic.otf";
+$P-Semibold="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-Semibold.otf";
+$P-SemiboldItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-SemiboldItalic.otf";
+$P-Bold="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-Bold.otf";
+$P-BoldItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pro/SF-Pro-Text-BoldItalic.otf";
+
+$C-Thin="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-Thin.otf";
+$C-ThinItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-ThinItalic.otf";
+$C-Light="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-Light.otf";
+$C-LightItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-LightItalic.otf";
+$C-Regular="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-Regular.otf";
+$C-RegularItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-RegularItalic.otf";
+$C-Medium="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-Medium.otf";
+$C-MediumItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-MediumItalic.otf";
+$C-Semibold="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-Semibold.otf";
+$C-SemiboldItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-SemiboldItalic.otf";
+$C-Bold="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-Bold.otf";
+$C-BoldItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Compact/SF-Compact-Text-BoldItalic.otf";
+
+$M-Regular="https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-Regular.otf";
+$M-RegularItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-RegularItalic.otf";
+$M-Medium="https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-Medium.otf";
+$M-MediumItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-MediumItalic.otf";
+$M-Semibold="https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-Semibold.otf";
+$M-SemiboldItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-SemiboldItalic.otf";
+$M-Bold="https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-Bold.otf";
+$M-BoldItalic="https://cdn.jsdelivr.net/gh/kyle1an/SF@main/Mono/SF-Mono-BoldItalic.otf";
+
+$uR=U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+$u4=U+0000-024F, U+0250-02AF, U+02B0-052F, U+1D00-1DBF, U+1DC0-20CF, U+2100-218F, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-Thin);
+	unicode-range: $uR;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-ThinItalic);
+	unicode-range: $uR;
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "SF Pro Text";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-Thin);
+	unicode-range: $uR;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-ThinItalic);
+	unicode-range: $uR;
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "SF Compact Text";
+	src: url($C-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: local("SF Mono Regular"), url($M-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: local("SF Mono RegularItalic"), url($M-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: local("SF Mono Medium"), url($M-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: local("SF Mono MediumItalic"), url($M-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: local("SF Mono Semibold"), url($M-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: local("SF Mono SemiboldItalic"), url($M-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: local("SF Mono Bold"), url($M-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: local("SF Mono BoldItalic"), url($M-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SFMono-Regular";
+	src: local("SF Mono Regular"), url($M-Regular);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: local("SF Mono Regular"), url($M-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: local("SF Mono RegularItalic"), url($M-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: local("SF Mono Medium"), url($M-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: local("SF Mono MediumItalic"), url($M-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: local("SF Mono Bold"), url($M-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Consolas";
+	src: local("SF Mono BoldItalic"), url($M-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "courier new";
+	src: local("SF Mono Regular"), url($M-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "courier new";
+	src: local("SF Mono RegularItalic"), url($M-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "courier new";
+	src: local("SF Mono Medium"), url($M-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "courier new";
+	src: local("SF Mono MediumItalic"), url($M-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "courier new";
+	src: local("SF Mono Bold"), url($M-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "courier new";
+	src: local("SF Mono BoldItalic"), url($M-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: local("SF Mono Regular"), url($M-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: local("SF Mono RegularItalic"), url($M-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: local("SF Mono Medium"), url($M-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: local("SF Mono MediumItalic"), url($M-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: local("SF Mono Semibold"), url($M-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: local("SF Mono SemiboldItalic"), url($M-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: local("SF Mono Bold"), url($M-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Menlo";
+	src: local("SF Mono BoldItalic"), url($M-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Monaco";
+	src: local("SF Mono Regular"), url($M-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Monaco";
+	src: local("SF Mono RegularItalic"), url($M-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Monaco";
+	src: local("SF Mono Medium"), url($M-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Monaco";
+	src: local("SF Mono MediumItalic"), url($M-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Monaco";
+	src: local("SF Mono Semibold"), url($M-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Monaco";
+	src: local("SF Mono SemiboldItalic"), url($M-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Monaco";
+	src: local("SF Mono Bold"), url($M-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Monaco";
+	src: local("SF Mono BoldItalic"), url($M-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: AlibabaPuHuiTi;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: AlibabaPuHuiTi;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: AlibabaPuHuiTi;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: AlibabaPuHuiTi;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "arial";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Arial Unicode MS";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Crisp Noto Sans Regular";
+	src: url($P-Regular);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Content-font;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "dosis";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: font-regular;
+	src: url($P-Regular);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-Thin);
+	unicode-range: $uR;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-ThinItalic);
+	unicode-range: $uR;
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "HelveticaNeue-Medium";
+	src: url($P-Medium);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "HelveticaNeue-Bold";
+	src: url($P-Bold);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Lantinghei SC";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Lucida Grande";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Lucida Grande";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Lucida Grande";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Lucida Grande";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "lucida Grande";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "lucida Grande";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "lucida Grande";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "lucida Grande";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Microsoft Yahei";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Microsoft Yahei";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Microsoft Yahei";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Microsoft Yahei";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Microsoft Yahei";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Microsoft Yahei";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "微軟正黑體";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "微软雅黑";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "微软雅黑";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "微软雅黑";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "微软雅黑";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "微软雅黑";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "微软雅黑";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: muli;
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: muli;
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: muli;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: muli;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "opensans";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "opensans";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: ".PingFang SC";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "PingFangSC";
+	src: url($P-Regular);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "PingFang SC Light";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "PingFang SC Light";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PingFang SC Light";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "PingFang SC Light";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PingFang SC Light";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "PingFang SC Light";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PingFangSC-Regular";
+	src: url($P-Regular);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "PingFangSC-Medium";
+	src: url($P-Medium);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "PingFangSC-Semibold";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "pt sans";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "pt sans";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "pt sans";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "pt sans";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "pt sans";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "pt sans";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "pt sans";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "pt sans";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Roboto-Light";
+	src: url($P-Light);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url($P-Medium);
+	font-weight: 400;
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url($P-Regular);
+	unicode-range: $uR;
+}
+
+@font-face {
+	font-family: "Segoe UI Web (West European)";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Segoe UI Web (West European)";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Segoe UI Web (West European)";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Segoe UI Web (West European)";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Segoe UI";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: SegoeUI;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Source Han Sans CN";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Source Han Sans CN";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "source sans pro";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "source sans pro";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Tahoma;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Tahoma;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Tahoma;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Tahoma;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Times New Roman";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Trebuchet MS";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Trebuchet MS";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Trebuchet MS";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Trebuchet MS";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Ubuntu Light";
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-Light);
+	unicode-range: $uR;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-LightItalic);
+	unicode-range: $uR;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-Medium);
+	unicode-range: $uR;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-MediumItalic);
+	unicode-range: $uR;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-Semibold);
+	unicode-range: $uR;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-SemiboldItalic);
+	unicode-range: $uR;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Verdana;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Verdana;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Verdana;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Verdana;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Whitney;
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Whitney;
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Whitney;
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Whitney;
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "方正仿宋_gbk";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "方正仿宋_gbk";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "方正仿宋_gbk";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "方正仿宋_gbk";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "宋体";
+	src: url($P-Regular);
+	unicode-range: $u4;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "宋体";
+	src: url($P-RegularItalic);
+	unicode-range: $u4;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "宋体";
+	src: url($P-Bold);
+	unicode-range: $uR;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "宋体";
+	src: url($P-BoldItalic);
+	unicode-range: $uR;
+	font-weight: 700;
+	font-style: italic;
+}
+/*██*/
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-Light.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-LightItalic.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-Regular.otf");
+	unicode-range: U+0000-024F, U+0250-02AF, U+02B0-052F, U+1D00-1DBF, U+1DC0-20CF, U+2100-218F, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-RegularItalic.otf");
+	unicode-range: U+0000-024F, U+0250-02AF, U+02B0-052F, U+1D00-1DBF, U+1DC0-20CF, U+2100-218F, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-Medium.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-MediumItalic.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-Semibold.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-SemiboldItalic.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-Bold.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'SF C0mpact Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/C0mpact/SF-Compact-Text-BoldItalic.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 700;
+	font-style: italic;
+}
+
+/*██*/
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-Light.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-LightItalic.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-Regular.otf");
+	unicode-range: U+0000-024F, U+0250-02AF, U+02B0-052F, U+1D00-1DBF, U+1DC0-20CF, U+2100-218F, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-RegularItalic.otf");
+	unicode-range: U+0000-024F, U+0250-02AF, U+02B0-052F, U+1D00-1DBF, U+1DC0-20CF, U+2100-218F, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-Medium.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-MediumItalic.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-Semibold.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-SemiboldItalic.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-Bold.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'SF Pr0 Text';
+	src: url("https://cdn.jsdelivr.net/gh/kyle1an/SF-@main/Pr0/SF-Pro-Text-BoldItalic.otf");
+	unicode-range: U+0000-024F, U+02B0-052F, U+1DC0-20CF, U+2190-22FF, U+2460-24FF, U+25A0-25FF, U+2700-27FF, U+2900-2BFF, U+2C60-2C7F, U+2DE0-2E7F, U+3200-32FF, U+A640-A69F, U+A700-A7FF, U+E000-F8FF, U+FFF0-FFFF, U+F0000-10FFFF;
+	font-weight: 700;
+	font-style: italic;
+}

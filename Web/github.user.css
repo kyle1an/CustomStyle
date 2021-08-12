@@ -1,0 +1,95 @@
+:root {
+	--font-family: "SF Pro Text", "Open Sans", "Clear Sans", "Helvetica Neue",
+		Helvetica, Arial, sans-serif;
+	--code-font-family: SF Mono, TheSansMonoCd-Regular, SF Mono, Monospace !important;
+	--monospace: SF Mono, TheSansMonoCd-Regular, Monospace !important;
+	--select-text-font-color: black;
+}
+body {
+	font-family: "SF Pro Text", "Open Sans", "Clear Sans", "Helvetica Neue",
+		Helvetica, Arial, sans-serif;
+	color: black;
+	font-size: 17px;
+	/* line-height: 1.6; */
+
+	-webkit-font-smoothing: antialiased !important;
+	/* -webkit-font-smoothing: subpixel-antialiased !important; */
+	/* font-smooth: 1em !important;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important; */
+}
+.articles-expander *,
+.article-expander *,
+.outline-expander * {
+	font-family: "SF Pro Text", "Open Sans", "Clear Sans", "Helvetica Neue" !important;
+	font-variant-numeric: tabular-nums !important;
+}
+h1 {
+	font-family: Dogma-Bold;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+	text-align: center;
+}
+h2 {
+	font-family: Futura, sans-serif;
+	font-weight: 600;
+	position: relative !important;
+	left: -2em;
+}
+h3 {
+	font-family: Futura;
+	font-style: italic;
+}
+figure {
+	overflow: visible;
+}
+th[style="text-align:left;"] span {
+	font-weight: bold;
+}
+td[style="text-align:left;"] {
+	font-style: italic;
+}
+#write {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 30px;
+	padding-bottom: 100px;
+	caret-color: transparent;
+}
+code,
+code *,
+kbd,
+[class~="code"],
+[style*="monospace"],
+.monospaced,
+pre {
+	/* letter-spacing: 0.01em; */
+	font-family: var(--code-font-family), TheSansMonoCd-Regular, SF Mono,
+		Monospace !important;
+	/* font-size: 15px; */
+}
+
+code,
+tt {
+	border: 0 solid #e7eaed;
+}
+/*CODE*/
+.cm-comment {
+	color: #507e7f !important;
+}
+
+.md-fences,
+code,
+tt {
+	/* border: 1px solid #e7eaed;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	padding: 0; */
+	padding: 2px 4px 1px 4px;
+	margin-bottom: 1px;
+	font-size: .97em;
+}
+.md-fences {
+	line-height: 1.25;
+	padding: 8px 4px 6px 4px;
+}

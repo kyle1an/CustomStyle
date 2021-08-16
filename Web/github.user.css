@@ -6,9 +6,11 @@
 	--select-text-font-color: black;
 }
 body {
-	font-family: var(--font-family);
+	font-family: "SF Pro Text", "Open Sans", "Clear Sans", "Helvetica Neue",
+		Helvetica, Arial, sans-serif;
 	color: black;
-	/* font-size: 17px; */
+	font-size: 17px;
+	letter-spacing: 0.2em;
 	/* line-height: 1.6; */
 
 	-webkit-font-smoothing: antialiased !important;
@@ -17,7 +19,8 @@ body {
 	-webkit-font-smoothing: antialiased !important;
 	-moz-osx-font-smoothing: grayscale !important; */
 }
-
+ 
+  
 code,
 code *,
 kbd,
@@ -26,7 +29,8 @@ kbd,
 .monospaced,
 pre {
 	/* letter-spacing: 0.01em; */
-	font-family: var(--code-font-family) !important;
+	font-family: var(--code-font-family), TheSansMonoCd-Regular, SF Mono,
+		Monospace !important;
 	/* font-size: 15px; */
 }
 
@@ -37,4 +41,20 @@ tt {
 /*CODE*/
 .cm-comment {
 	color: #507e7f !important;
+}
+
+.md-fences,
+code,
+tt {
+	/* border: 1px solid #e7eaed;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	padding: 0; */
+	padding: 2px 4px 1px 4px;
+	margin-bottom: 1px;
+	font-size: .97em;
+}
+.md-fences {
+	line-height: 1.25;
+	padding: 8px 4px 6px 4px;
 }
